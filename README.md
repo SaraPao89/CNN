@@ -1,1 +1,4 @@
 # CNN for leaves classdification
+
+This paper presents a model of Convolutional Neural Network (CNN), a supervised machine learning technique, to classify pictures of leaves from various plant species. The dataset is obtained from Kaggle https://www.kaggle.com/datasets/csafrit2/plant-leaves-for-image-classification and was imported and mounted from Google Drive to the Colab runtime to easily access files and folders stored in the Drive from the Colab notebook. The images were processed using augmentation techniques to enhance the data and a Grid Search was performed to find the best hyperparameters. The model was evaluated using various evaluation metrics. 
+The analysis relied on TensorFlow, Keras, Layers, Sequential, and other libraries such as zipfile, pandas, numpy, and cv2 for handling the data and images.
